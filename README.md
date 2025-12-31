@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!for yuhh>
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
@@ -24,8 +24,11 @@ body{
   100%{top:110vh;opacity:0}
 }
 
-/* page style */
-.page{
+/* page style */ 
+  .page {
+  overflow-y: auto;               /* vertical scroll allow karega */
+  -webkit-overflow-scrolling: touch;  /* mobile smooth scroll */
+}
   width:100%;
   height:100vh;
   display:none;
